@@ -31,7 +31,7 @@ To quit the program press any key and it will terminate.
 [3] [Cascade Classifier](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html) <br>
 [4] [Drawing Functions](https://docs.opencv.org/master/d6/d6e/group__imgproc__draw.html) <br>
 [5] [OpenCV: Filters & Arithmetic Operations](https://medium.com/@almutawakel.ali/opencv-filters-arithmetic-operations-2f4ff236d6aa) <br>
-[6] [Verify Rect Object is Inside Mat Object ](https://stackoverflow.com/questions/29120231/how-to-verify-if-rect-is-inside-cvmat-in-opencv) (used in line 96)<br>
+[6] [Verify Rect Object is Inside Mat Object ](https://stackoverflow.com/questions/29120231/how-to-verify-if-rect-is-inside-cvmat-in-opencv) (used in line 105)<br>
 
 
 
