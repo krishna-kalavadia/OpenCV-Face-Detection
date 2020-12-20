@@ -1,6 +1,6 @@
 ## Face Detection and Image Processing
 
-Introductory project to learn basic openCV and image processing. <br>
+Introductory project to learn basic OpenCV and image processing. <br>
 
 Created a program that detects faces, eyes and smiles and outlines them. 
 After detecting faces, each face is sharpened using a common image sharpening convolution kernel 
