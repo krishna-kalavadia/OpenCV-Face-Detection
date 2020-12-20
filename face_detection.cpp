@@ -44,6 +44,7 @@ int main() {
     // Opens '0th' web cam on the system
     VideoCapture capture(0);
 
+    // Terminate if not opened
     if (!capture.isOpened()) {
         return -1;
     }
@@ -51,6 +52,7 @@ int main() {
     while (true) {
         Mat frame;  // Holds each frame from the capture
         Mat gray_scale_frame; // Holds grey scale converted frame
+
         capture >> frame;
         // Convert frame to grayscale
         cvtColor(frame, gray_scale_frame, COLOR_BGR2GRAY);
@@ -65,9 +67,9 @@ int main() {
                 colors[1],1
         );
 
-
         // show the frame which now contains outlines faces, text and the blurred background
         imshow("Camera Frame", frame);
+
         // if key is pressed break the loop
         if (waitKey(10) > 0) {
             break;
@@ -157,7 +159,6 @@ void detect_and_process(Mat& image, const Mat& gray_scale_image,
                     cv::FONT_HERSHEY_COMPLEX_SMALL, 1.0,
                     color_array[3], 1);
         }
-
     }
 
     // Blur the background but keep each face there
@@ -169,6 +170,7 @@ void detect_and_process(Mat& image, const Mat& gray_scale_image,
                             cvRound(faces[i].y* scaling_factor),
                             faces[i].width* scaling_factor,
                             faces[i].height* scaling_factor);
+        // Copies each sharpened face onto the blurred background
         sub_images[i].copyTo(blurred_background(rect_with_face));
     }
 
