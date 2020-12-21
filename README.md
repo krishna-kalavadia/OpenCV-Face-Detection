@@ -17,7 +17,7 @@ To install and run this Project on CLion:
 3. Open CLion, and select "Open or Import" and select the cloned repository 
 4. Right click "CMakeLists.txt" and select "Reload CMake project" to ensure OpenCV is found
 5. Go to Run > Edit Configurations > Ensure Working Directory is selected as the current directory so the program can find the three Haar Cascade files included in the repository 
-    5. The three Haar Cascade files were taken from OpenCV's collection of Haar Cascade files so if you wish to use a different Haar Cascade from there such as "haarcascade_frontalface_alt.xml" then include the file path when you load the Haar Cascade 
+   * The three Haar Cascade files were taken from OpenCV's collection of Haar Cascade files so if you wish to use a different Haar Cascade from there such as "haarcascade_frontalface_alt.xml" then include the file path when you load the Haar Cascade 
 6. Run project
 ## Usage
 When the project is run, it will open your web-cam, start detecting faces and filtering the image <br>
