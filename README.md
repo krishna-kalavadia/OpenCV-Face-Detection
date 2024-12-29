@@ -9,6 +9,7 @@ and the background is smoothed using a Gaussian Blur.
 ## Screenshots
  <img src="screenshots/example_img.png" alt="Sample Path Found" width="400"/>
  (Not the best picture of my Mom and I)
+
 ## Installation on CLion
 To install and run this Project on CLion:
 1. Clone the repository 
@@ -18,6 +19,7 @@ To install and run this Project on CLion:
 5. Go to Run > Edit Configurations > Ensure Working Directory is selected as the current directory so the program can find the three Haar Cascade files included in the repository 
    * The three Haar Cascade files were taken from OpenCV's collection of Haar Cascade files so if you wish to use a different Haar Cascade from there such as "haarcascade_frontalface_alt.xml" then include the file path when you load the Haar Cascade 
 6. Run project
+
 ## Usage
 When the project is run, it will open your web-cam, start detecting faces and filtering the image <br>
 
