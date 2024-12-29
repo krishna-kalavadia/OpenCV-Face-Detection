@@ -7,8 +7,7 @@ After detecting faces, each face is sharpened using a common image sharpening co
 and the background is smoothed using a Gaussian Blur.
 
 ## Screenshots
-
- ![Image](screenshots/example_img.png "Main Page")
+ <img src="screenshots/example_img.png" alt="Sample Path Found" width="400"/>
  (Not the best picture of my Mom and I)
 ## Installation on CLion
 To install and run this Project on CLion:
